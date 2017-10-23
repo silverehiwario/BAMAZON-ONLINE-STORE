@@ -1,6 +1,5 @@
 # BAMAZON-ONLINE-STORE
 
-
 Synopsis
 
 This is an interactive online shopping store node app where MySQL and Node.JS are used to allow users to purchase items as a customer, view, track and update the product inventory as a manager, and track the total sales by department, add new departments and update overhead costs as a supervisor..
@@ -9,32 +8,26 @@ Bamazon Customer Portal
 
 The Customer Portal shows the current items available for purchase, prompts the user to chose from the list of available product, and the user can specify the quantity to be purchased. The App calculates the total price and places the order if there is sufficient quantity in stock to fulfull the order. If the quantity speficied by the user is more than available stock quantity, the app indicates to the user the quantity available in stock and the user will now have the opportunity to reduce the quantity of that product or purchase a different product.
 
+
+
+
+
+
+
 Customer Portal
 ---------------------------------------------------------------------
-INVENTORY
-Item No : 1
-Product Name :Milk
-Price :9.99
-Item No : 2
-Product Name :Bread
-Price :5.99
+<img src="https://user-images.githubusercontent.com/27755396/31872106-bb1c19e0-b77e-11e7-9916-e57a71567e25.png" width="50%"></img> 
 
-Check the Inventory above for the product you want to buy
-? Check the Inventory above for the product you want to buy Milk
-? How many units of the Product will you like to buy? 20
-Congratulations, the product you requested is in stock! Placing order!
-Your order has been placed! Your total is $199.8
-Thank you for shopping with us!
+<img src="https://user-images.githubusercontent.com/27755396/31872115-cd171d16-b77e-11e7-8ca0-ff0532ed1c09.png" width="50%"></img>
+
 ---------------------------------------------------------------------
 
 Bamazon Manager Portal
 
 The Bamazon manager Portal allows users to view and edit the inventory of the store. The user will be prompted to choose from the following options:
 
-View products for sale
-View low inventory
-Add to inventory
-Add a new product
+<img src="https://user-images.githubusercontent.com/27755396/31872121-d8415e72-b77e-11e7-89a0-d50c79df799c.png" width="50%"></img>
+
 Manager Options 1 & 2
 
 The first option allows the user to see the list of products that are currently for sale, what department the item belongs to, the price of the product and how much stock is left for that product.
@@ -44,25 +37,11 @@ The second option allows the user to see a list of all inventory items that have
 
 Bamazon Manager Portal - Options 1 & 2
 ---------------------------------------------------------------------
-What would you like to view? View Products for sale
-Item No : 1
-Product Name :Milk
-Department :Dairy
-Price :9.99
-Item No : 2
-Product Name :Bread
-Department :Bakery
-Price :5.99
+<img src="https://user-images.githubusercontent.com/27755396/31872129-e75b03c2-b77e-11e7-8858-979ab5dc8da4.png" width="50%"></img> 
 
 ---------------------------------------------------------------------
-Items With Low Inventory
-[ RowDataPacket {
-    id: 1,
-    product_name: 'Milk',
-    department_name: 'Dairy',
-    price: 9.99,
-    stock_quantity: 340,
-    product_sales: 4015.98 },
+<img src="https://user-images.githubusercontent.com/27755396/31872139-f56e5176-b77e-11e7-97a2-29e84ce4b03c.png" width="50%"></img> 
+
 ---------------------------------------------------------------------
 
 
@@ -74,25 +53,13 @@ The last option allows the user to add a new product to the inventory. Prompts a
 
 Bamazon Manager Portal - Options 3 & 4
 ---------------------------------------------------------------------
-MANAGERS VIEW
-? Enter a masked password ********
-? What would you like to view? Add To Inventory
-? Add To Inventory Milk
-? How many units of the Product will you like to add? 20
-UPDATE products SET stock_quantity = 360 WHERE id = 1
-Added to Inventory successfully!
----------------------------------------------------------------------
+<img src="https://user-images.githubusercontent.com/27755396/31872151-02b8ae1c-b77f-11e7-9ef0-0d8adc5172dd.png" width="50%"></img> 
 
-? What would you like to view? Add New Product
-? Add New Product Name Egg
-? Choose the Department Grocery
-? Add New Price 3.99
-? Add new Stock Quantity 100
-New item successfully added to the inventory!
-Product Name: Egg
-Department: Grocery
-Price: $3.99
-Stock Quantity: 100
+<img src="https://user-images.githubusercontent.com/27755396/31872153-0af285c6-b77f-11e7-8451-c110c2c2971c.png" width="50%"></img> 
+
+---------------------------------------------------------------------
+<img src="https://user-images.githubusercontent.com/27755396/31872159-1665e24a-b77f-11e7-830e-80f8fbae3a85.png" width="50%"></img> 
+
 ---------------------------------------------------------------------
 
 Bamazon Supervisor Portal
@@ -101,31 +68,16 @@ The Bamazon Supervisor Portal allows users to view the total profits of the stor
 
 Bamazon Supervisor Portal
 
-DepartmentId	department_name		over_head_costs		Total_Product_Sales	Total_Profit
-1		Dairy			500			4015.98			3515.98
-2		Bakery			500			2494.33			1994.33
-3		Grocery			500			806.99			306.99
-4		Deli			500			1008.99			508.99
-5		Wine			500			1423.55			923.55
-6		Fruits and Vegetables	500			2538.38			2038.38
-7		Cookware		500			3000.97			2500.97
-8		Appliances		500			3301.97			2801.97
-17		Electronics		500			400500			400000
- 
---------------------------------------------------------------------
+<img src="https://user-images.githubusercontent.com/27755396/31872171-20e9f6d4-b77f-11e7-9602-5cb18a25638e.png" width="50%"></img> 
 
-? What would you like to view? Create New Department
-? Add New Department Outdoor
-?  Add OverHead Costs? 0
-New Department: Outdoor
-Overhead Cost:0
-New Department and Overhead Cost successfully created!
+<img src="https://user-images.githubusercontent.com/27755396/31872176-29e20c90-b77f-11e7-954d-dff2da4ef812.png" width="50%"></img> 
+
+--------------------------------------------------------------------
+<img src="https://user-images.githubusercontent.com/27755396/31872187-33e6205a-b77f-11e7-8acf-7be9b3d83f60.png" width="50%"></img> 
+
 ---------------------------------------------------------------------
-? What would you like to view? Update Overhead Cost
-? Check for the Department you want to update the overhead cost Outdoor
-? Add Overhead Cost? 500
- OverHead Cost: 500
-OverHead Cost successfully added to :Outdoor
+<img src="https://user-images.githubusercontent.com/27755396/31872189-3e94bfd4-b77f-11e7-8e12-42f65d0d978e.png" width="50%"></img> 
+
 ---------------------------------------------------------------------
 Contributors:
 
